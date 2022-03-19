@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body{
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	color: #fff;
+	background-image: url("../img/fondo/vincent-voet-galaxy-s6-edge-background1.jpg");
+}
+header{
+   background-image: url("../img/fondo/vincent-voet-galaxy-s6-edge-background1.jpg");
+}
+.section{
+	padding:25px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-image: url("../img/fondo/vincent-voet-galaxy-s6-edge-background1.jpg");
+}
+
+#intro p{
+	color: #000;
+	font-size: 20px;
+	padding: 400px 500px 0 0;
+	
+	
+}
+
+.navbar-brand img{
+	width: 100px;
+	
+	
+}
+.col-lg-12 img{
+	width: 300px;
+	
+}
+
+
+#contacto input, #contacto select, #contacto textarea{
+	background-color: transparent;
+	color: #ffffff;
+}
+#contacto input::placeholder, #contacto textarea::placeholder {
+   color:    #fff;
+}
+#contacto select option {
+
+   color: #000;
+
+}
+
+#contact{
+	
+	padding: 25px;
+	
+}
+footer{
+background-image: url( "../img/Logo personal/logo.png");
+	background-size:200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 5%;
+}
+footer p{
+	
+	text-align:start;
+	
+}
